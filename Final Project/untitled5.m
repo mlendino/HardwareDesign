@@ -1,3 +1,4 @@
+%algorithm that needs to be converted to Verilog, but this algorithm converges and returns the correct value of Ic for the example
 function Ic = untitled5(r1,r2,vcc,Icguess,beta,Is,vt)
 vthev = (r2/(r1+r2))*vcc;
 rthev = ((1/r1)+(1/r2))^-1;
