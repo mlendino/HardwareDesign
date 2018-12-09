@@ -22,7 +22,7 @@ floating_point_0 DUT (
         ivalid = 0;
         repeat(12)
             #5 aclk = ~aclk;
-        //this is simulating e^(766/26) because vbe is about 766 mV in example
+             //this is simulating e^(766/26) because vbe is about 766 mV in example, and it does give the correct output :)
         ivalid = 1; idata = 32'h0x41ebb13b;  //32'h3f800000; this is 1
         #5
         aclk = ~aclk;
