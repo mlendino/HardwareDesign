@@ -12,3 +12,5 @@ output the voltages through a DAC so that the user can use the output voltage, s
 directly. For future projects we would wish to expand our design by making modules for alternate 
 topologies such as including a modified nodal analysis (MNA) circuit solver to allow for more flexible
 and/or solving systems with multiple transistors.
+
+Collaborated with Matt Ferreira and Aziza Almanakly
